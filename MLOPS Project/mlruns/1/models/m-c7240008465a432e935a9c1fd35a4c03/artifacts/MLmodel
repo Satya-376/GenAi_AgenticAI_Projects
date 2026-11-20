@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/satya/AVSCode/MLOPS/mlruns/1/models/m-c7240008465a432e935a9c1fd35a4c03/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.1
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.18.0
+model_id: m-c7240008465a432e935a9c1fd35a4c03
+model_size_bytes: 9204
+model_uuid: m-c7240008465a432e935a9c1fd35a4c03
+prompts: null
+run_id: 05d0f5962bd94d1eb751a31612eaec19
+utc_time_created: '2026-11-19 17:48:41.551055'

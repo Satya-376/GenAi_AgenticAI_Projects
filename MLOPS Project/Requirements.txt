@@ -1,0 +1,9 @@
+# Download some needed library
+
+pip install mlflow,numpy,pandas,seaborn
+
+
+# then use
+mlflow ul 
+
+--- for run server--
